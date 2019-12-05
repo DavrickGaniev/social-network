@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Lavan';
+    src: url('fonts/Lavanderia Regular.otf');
+}
+@font-face {
+    font-family: 'Alte';
+    src: url('fonts/AlteHaasGroteskBold.ttf');
+}
+@font-face {
+    font-family: 'Univ';
+    src: url('fonts/Univers-LT-Std-45-Light_46331.ttf');
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+
+

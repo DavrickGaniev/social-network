@@ -1,23 +1,24 @@
 import React from 'react';
+import h from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className="header">
-		<nav className="nav">
-			<div className="logo">
+        <header className={h.header}>
+		<nav className={h.nav}>
+			<div className={h.logo}>
 				<p>Graff <font>blue</font></p>
 			</div>
-			<div className="nav-items">
+			<div className={h.nav_items}>
 				<a href="#!">Home</a>
 				<a href="#!">About us</a>
 				<a href="#!">Services</a>
 				<a href="#!">Contact</a>
-				<div className="login">
+				<div className={h.login}>
 					<a href="#!">Login</a>
 				</div>
 			</div>	
 		</nav>
-		<div className="text">
+		<div className={h.text}>
 			<h1>WELCOME TO PINK</h1>
 			<p>A multi purpose theme from Hello</p>
 		</div>

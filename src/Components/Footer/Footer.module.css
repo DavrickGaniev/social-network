@@ -1,0 +1,10 @@
+.footer{
+	width: 100%;
+	max-width: 1366px;
+	font-family: Univ;
+	background-color: #333;
+	padding: 15px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 11pt;
+}

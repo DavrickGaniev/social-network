@@ -1,0 +1,74 @@
+.header{
+	width: 100%;
+	max-width: 1366px;
+	background: url('../../img.jpeg');
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 500px;
+	margin: 0 auto;
+}
+.nav{
+	background: rgba(255,255,255,.5);
+	width: 100%;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{
+	width: 10%;
+}
+.logo p{
+	font-size: 26pt;
+	font-family: Lavan;
+}
+.logo p font{
+	color: #ff0066;
+}
+.nav_items{
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav_items a{
+	font-family: 'Univ';
+	text-decoration: none;
+	margin-left: 30px;
+	color: #333;
+}
+.login a{
+	padding: 10px 20px;
+	border: 1px solid #ff0066;
+	border-radius: 25px 5px 25px 5px;
+	background: #ff0066;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.login a:hover{
+	transition: .6s;
+	background: none;
+	color: #ff0066;
+}
+.text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+.text h1{
+	color: #fff;
+	font-size: 36pt;
+	font-family: Alte;
+}
+.text p{
+	color: #fff;
+	font-family: 'Univ';
+	font-size: 14pt;
+}

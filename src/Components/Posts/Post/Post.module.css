@@ -1,0 +1,14 @@
+.post_items{
+	width: 80%;
+	display: flex;
+	margin: 20px 0;
+}
+.post_items .p_title{
+	font-family: Univ;
+	font-weight: 700;
+	font-size: 15pt;
+}
+.post_items p{
+	font-family: Univ;
+	font-size: 11pt;
+}
